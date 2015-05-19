@@ -1,0 +1,16 @@
+/* TEAM */
+Creator, Designer, Developer, Owner: Brandon Sarà
+Site: http://bsara.github.io
+Twitter: @bsara_dev
+Location: USA
+
+
+/* THANKS */
+Name: http://www.endmemo.com/sconvert/pixelpoint.php
+
+
+/* SITE */
+Last Update: 2015/05/19
+Standards: HTML5, CSS3, Editorconfig, JSHint
+Components: jQuery, SASS/SCSS
+Software: Atom Editor, Sublime Text 3, Google Chrome
