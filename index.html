@@ -16,12 +16,45 @@
   <body>
 
     <header>
+      <h1>Web Font Unit Convertor</h1>
     </header>
 
     <main>
+
+      <section id="input">
+        <div id="convertFromWrapper">
+          <label for="emBaseValue">Value to Convert</label>
+          <input id="convertFromValue" type="number" step="0.1" />
+          <select id="convertFromUnit">
+            <option value="em" selected>em</option>
+            <option value="pt">pt</option>
+            <option value="px">px</option>
+          </select>
+        </div>
+        <div id="emBaseWrapper">
+          <label for="emBaseValue">EM Base</label>
+          <input id="emBaseValue" type="number" step="0.1" min="1" />
+          <select id="emBaseUnit">
+            <option value="pt" selected>pt</option>
+            <option value="px">px</option>
+          </select>
+        </div>
+      </section>
+
+      <section id="output" class="hidden">
+        <h2>Results</h2>
+        <ul id="results"></ul>
+      </section>
+
+      <section id="info">
+        <p></p>
+      </section>
+
     </main>
 
     <footer>
+      <p>Licensed under the <a href="https://github.com/bsara/font-unit-converter/blob/gh-pages/LICENSE">MIT public license</a></p>
+      <p>Copyright &#169; Brandon Sara 2015 (<a href="http://bsara.github.io" target="_blank">http://bsara.github.io</a>)</p>
     </footer>
 
   <body>

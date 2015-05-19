@@ -16,6 +16,7 @@
 
 *~
 *.orig
+*.log
 .vagrant
 
 
